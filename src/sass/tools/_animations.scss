@@ -1,0 +1,87 @@
+@keyframes blink {
+	0%{
+		transform: translateY(-11.16rem);
+	}
+
+	96%{
+		transform: translateY(-11.16rem);
+	}
+
+	98%{
+		transform: translateY(0);
+	}
+
+	100%{
+		transform: translateY(-11.16rem);
+	}
+}
+
+@keyframes smallBlink {
+	0%{
+		transform: translateY(-1.25rem);
+	}
+
+	96%{
+		transform: translateY(-1.25rem);
+	}
+
+	98%{
+		transform: translateY(0);
+	}
+
+	100%{
+		transform: translateY(-1.25rem);
+	}
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+	}
+
+	5% {
+		transform: translateY(-0.5rem);
+	}
+
+	10% {
+		transform: translateY(1rem);
+	}
+
+	15% {
+		transform: translateY(-0.5rem);
+	}
+
+	20% {
+		transform: translateY(1rem);
+	}
+
+	25%{
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes tilt {
+	0%{
+		transform: rotate(0);
+	}
+
+	25%{
+		transform: rotate(-3deg);
+	}
+
+	50%{
+		transform: rotate(0);
+	}
+
+	75%{
+		transform: rotate(2deg);
+	}
+
+	100%{
+		transform: rotate(0);
+	}
+}

@@ -1,0 +1,26 @@
+/* SETTINGS */
+@import "settings/colors";
+@import "settings/fonts";
+
+/* TOOLS */
+@import "tools/animations";
+
+/* GENERICS */
+@import "generics/reset";
+@import "generics/hidden";
+
+/* COMPONENTS */
+@import "components/avatar";
+@import "components/persoFace";
+@import "components/persoTel";
+@import "components/body";
+@import "components/header";
+@import "components/mainNav";
+@import "components/pageDown";
+@import "components/mainContent";
+@import "components/about";
+@import "components/projects";
+@import "components/project";
+@import "components/contactMe";
+@import "components/footer";
+@import "components/contact";

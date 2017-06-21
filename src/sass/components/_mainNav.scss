@@ -1,0 +1,37 @@
+.mainNav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	width: 100%;
+	min-height: 10rem;
+	background: $brown;
+
+	&__list{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+
+		width: 33.333%;
+		min-height: 7rem;
+		margin: auto;
+		background: $brown;
+
+		border: .1rem solid $white;
+	}
+
+	&__item{
+		margin: auto 0;
+	}
+
+	&__link{
+		text-decoration: none;
+		color: $white;
+		font-size: 4rem;
+
+		&:hover, &:active, .active{
+			border-bottom: .1rem solid $white;
+		}
+	}
+}

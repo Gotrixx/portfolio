@@ -1,0 +1,22 @@
+.header{
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 80vh;
+	padding: 10rem;
+
+	&__intro{
+		font-size: 5rem;
+	}
+
+	&__text{
+		line-height: 1.5;
+	}
+
+	&__text + &__text{
+		margin-top: 2rem; 
+	}
+
+	&__strong{
+		font-weight: 400;
+	}
+}

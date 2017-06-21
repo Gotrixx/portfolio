@@ -1,0 +1,27 @@
+#persoTel{
+	box-sizing: border-box;
+	width: 50rem;
+	height: 50rem;
+	margin-right: 20rem;
+	font-size: 10px;
+	float: left;
+}
+
+#gsm{
+	transition: all .25s ease-in-out;
+	transform-origin: center center;
+}
+
+#persoTel:hover #gsm{
+	animation-name: tilt;
+    animation-duration: .25s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in-out;
+}
+
+#persoTel #paupiereD,#persoTel #paupiereG{
+	animation-name: smallBlink;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}

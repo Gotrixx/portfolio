@@ -1,0 +1,25 @@
+#persoFace{
+	width: 50rem;
+
+	float: left;
+	margin-right: 20rem;
+
+	z-index: 100;
+
+	&:hover #text{
+		fill: $coral;
+	}
+}
+
+#text{
+	fill: $gray;
+	transition: all ease-in-out .2s;
+}
+
+#persoFace #paupiereD,#persoFace #paupiereG{
+	// transform: translateY(-11.16rem);
+	animation-name: smallBlink;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}

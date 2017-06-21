@@ -1,0 +1,48 @@
+.projects{
+	padding: 10rem;
+	overflow: auto;
+	border-bottom: 3rem solid $brown;
+
+	&__title{
+		// width: 50%;
+		font-size: 6rem;
+		margin-bottom: 5rem;
+	}
+
+	&__content{
+		height: 100%;
+	}
+
+	&__list{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	&__link{
+		display: block;
+		box-sizing: border-box;
+		width: 40rem;
+		height: 5rem;
+		margin-left: 0rem;
+		margin-bottom: 2.5rem;
+		background: $brown;
+		border: .1rem solid $brown;
+		font-size: 3rem;
+		line-height: 1.7;
+		color: $white;
+		text-decoration: none;
+		text-align: center;
+
+		transition: background .5s ease-in-out;
+		transition: color .5s ease-in-out;
+		transition: all .25s ease-in-out;
+		
+		&:hover, &:focus {
+			background: $lightBrown;
+			color: $brown;
+			width: 35rem;
+			margin-left: 2.5rem;
+		}
+	}
+}

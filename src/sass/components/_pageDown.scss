@@ -1,0 +1,16 @@
+.pageDown{
+	align-self: flex-end;
+	display: block;
+	width: 20rem;
+	min-height: 10vh;
+	text-align: center;
+	text-decoration: none;
+	color: $brown;
+	font-size: 5rem;
+
+	animation-name: bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+}

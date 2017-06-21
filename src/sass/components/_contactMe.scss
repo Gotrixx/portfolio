@@ -1,0 +1,63 @@
+.contactMe{
+	padding: 10rem;
+	overflow: auto;
+	background: $yellow;
+	border-bottom: 3rem solid $brown;
+
+	&__title{
+		font-size: 6rem;
+		margin-bottom: 5rem;
+	}
+
+	&__content{
+		height: 100%;
+		margin: 0 auto;
+	}
+
+	&__info{
+		display: block;
+		font-size: 4rem;
+		text-decoration: none;
+		color: $black;
+		margin: 0 auto;
+		margin-bottom: 3rem;
+
+		& + &{
+			margin-bottom: 6rem;
+		}
+	}
+
+	&__strong{
+		font-weight: 400;
+	}
+
+	&__button{
+		box-sizing: border-box;
+		display: block;
+		width: 40rem;
+		margin-left: 70rem;
+		padding: 1rem;
+		background: $brown;
+		border: .1rem solid $brown;
+		font-size: 3rem;
+		line-height: 1.7;
+		color: $white;
+		text-decoration: none;
+		text-align: center;
+
+		transition: background .5s ease-in-out;
+		transition: color .5s ease-in-out;
+		transition: all .25s ease-in-out;
+		
+		&:hover, &:focus {
+			background: $lightBrown;
+			color: $brown;
+			width: 45rem;
+			margin-left: 67.5rem;
+		}
+	}
+
+	&__cv{
+		margin-top: 2.5rem;
+	}
+}

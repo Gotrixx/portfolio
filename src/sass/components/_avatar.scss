@@ -1,0 +1,24 @@
+#avatar{
+	box-sizing: border-box;
+	width: 50rem;
+	height: 50rem;
+	margin-right: 20rem;
+	font-size: 10px;
+	float: left;
+}
+
+#irisPupD, #irisPupG {
+	transition: transform .25s ease-in-out;
+}
+
+#avatar:hover #irisPupD, #avatar:hover #irisPupG{
+	transform: translate(1rem, 0rem);
+}
+
+#avatar #paupiereD,#avatar #paupiereG{
+	transform: translateY(-11.16rem);
+	animation-name: blink;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
