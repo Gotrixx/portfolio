@@ -1,1 +1,55 @@
-$mainFonts: 'Futura LT', Verdana, sans-serif;
+$mainFonts: 'futura_ltlight', arial, sans-serif;
+
+@font-face {
+    font-family: 'futura_ltcondensed';
+    src: url('../fonts/futura_lt_condensed_medium-webfont.woff2') format('woff2'),
+         url('../fonts/futura_lt_condensed_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_ltextrabold';
+    src: url('../fonts/futura_lt_extra_bold-webfont.woff2') format('woff2'),
+         url('../fonts/futura_lt_extra_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_ltheavy';
+    src: url('../fonts/futura_lt_heavy-webfont.woff2') format('woff2'),
+         url('../fonts/futura_lt_heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_ltlight';
+    src: url('../fonts/futura_lt_light-webfont.woff2') format('woff2'),
+         url('../fonts/futura_lt_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_ltoblique';
+    src: url('../fonts/futura_lt_medium_oblique-webfont.woff2') format('woff2'),
+         url('../fonts/futura_lt_medium_oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_ltregular';
+    src: url('../fonts/futura_lt_medium-webfont.woff2') format('woff2'),
+         url('../fonts/futura_lt_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
